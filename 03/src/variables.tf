@@ -46,13 +46,6 @@ variable "vpc_name" {
   description = "VPC network & subnet name"
 }
 
-###ssh vars
-
-variable "vms_ssh_root_key" {
-  type        = string
-  default     = "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACB6ChslbM8xTWeiiYggxcjE85HTmh1YIiDdKzFvTL+akgAAAJAtvo/2Lb6P9gAAAAtzc2gtZWQyNTUxOQAAACB6ChslbM8xTWeiiYggxcjE85HTmh1YIiDdKzFvTL+akgAAAEDUzh4tPY/lxuwac+91HA5cNlG+fod7WCPtC0LN>  description = "ssh-keygen -t ed25519"
-}
-
 variable "each_vm" {
   type = list(object({
       vm_name=string,
