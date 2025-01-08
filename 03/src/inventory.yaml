@@ -1,10 +1,10 @@
 [webservers]
-netology-develop-platform-web-0 ansible_host= fqdn=netology-develop-platform-web-0.ru-central1.internal
-netology-develop-platform-web-1 ansible_host= fqdn=netology-develop-platform-web-1.ru-central1.internal
+netology-develop-platform-web-1 ansible_host=51.250.83.211 fqdn=netology-develop-platform-web-1.ru-central1.internal
+netology-develop-platform-web-2 ansible_host=158.160.49.53 fqdn=netology-develop-platform-web-2.ru-central1.internal
 
 [databases]
-netology-develop-platform-db-main ansible_host= fqdn=fhms3vk93cba4m40l2rj.auto.internal
-netology-develop-platform-db-replica ansible_host= fqdn=fhms2ge27im2had0lmat.auto.internal
+netology-develop-platform-db-main ansible_host=51.250.78.86 fqdn=fhm1m5o9v141qodrv7ua.auto.internal
+netology-develop-platform-db-replica ansible_host=89.169.136.175 fqdn=fhmvdpqkp5ujv02fvnjk.auto.internal
 
 [storage]
-netology-develop-platform-storage ansible_host=89.169.151.129 fqdn=fhmhbatiok9e46bsp8ht.auto.internal
+netology-develop-platform-storage ansible_host=89.169.141.80 fqdn=fhmls615b7a25pla70gk.auto.internal
